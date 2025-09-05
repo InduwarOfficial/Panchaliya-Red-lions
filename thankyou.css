@@ -1,0 +1,48 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.thankyou-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  animation: fadeIn 1.5s ease;
+}
+
+.thankyou-container h1 {
+  color: #fc5c7d;
+}
+
+.thankyou-container p {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.thankyou-container a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.thankyou-container a:hover {
+  opacity: 0.85;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9);}
+  to { opacity: 1; transform: scale(1);}
+}
